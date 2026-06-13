@@ -471,8 +471,8 @@ function StartIntake() {
   // TALLY_EMBED: paste your Tally form's embed URL here, e.g.
   //   "https://tally.so/embed/abc123?transparentBackground=1"
   // Then set HAS_TALLY = true to render the live iframe instead of the preview.
-  const TALLY_URL = "TALLY_EMBED_URL_HERE";
-  const HAS_TALLY = false;
+  const TALLY_URL = "https://tally.so/embed/q4NE1d?transparentBackground=1&dynamicHeight=1";
+  const HAS_TALLY = true;
 
   return (
     <section id="intake" className="section section--intake section--start">
@@ -703,7 +703,7 @@ const CSS = `
 .intake__head .eyebrow{display:inline-block;}
 .intake__sub{font-size:18px; color:var(--steel); margin:16px 0 0;}
 .intake__panel{max-width:760px; margin:0 auto; background:var(--carbon); border:1px solid var(--line); border-radius:4px; padding:14px;}
-.intake__iframe{width:100%; height:760px; border:0; border-radius:3px; background:transparent; display:block;}
+.intake__iframe{width:100%; height:1100px; min-height:900px; border:0; border-radius:3px; background:transparent; display:block;}
 .intake__placeholder{padding:30px 26px;}
 .intake__placeholder-tag{font-family:'Sora'; font-weight:600; font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--taupe); margin-bottom:22px;}
 .intake__fields{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
